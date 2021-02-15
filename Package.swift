@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SpreadsheetView",
     platforms: [
-        .macOS("10.10"), .iOS("9.0"), .tvOS("9.2"), .watchOS("2.2")
+        .macOS("11.0"), .iOS("11.0"), .tvOS("9.2"), .watchOS("6.0")
     ],
     products: [
         .library(
@@ -21,5 +21,5 @@ let package = Package(
             exclude: ["Tests"]
         )
     ],
-    swiftLanguageVersions: [.v5, .v4_2]
+    swiftLanguageVersions: [.v5]
 )
