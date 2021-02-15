@@ -18,7 +18,7 @@ let package = Package(
             name: "SpreadsheetView",
             dependencies: [],
             path: "Framework",
-            exclude: ["Tests"]
+            exclude: ["Tests", "docs"]
         )
     ],
     swiftLanguageVersions: [.v5]
