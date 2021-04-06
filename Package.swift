@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SpreadsheetView",
+    defaultLocalization: "en",
     platforms: [
         .macOS("11.0"), .iOS("11.0"), .tvOS("9.2"), .watchOS("6.0")
     ],
