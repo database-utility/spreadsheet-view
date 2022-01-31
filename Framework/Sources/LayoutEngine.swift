@@ -215,9 +215,9 @@ final class LayoutEngine {
                     cellOrigin.x += cellWidth
                     continue
                 }
-                guard cellOrigin.y - offsetHeight <= visibleRect.maxY else {
-                    return true
-                }
+//                guard cellOrigin.y - offsetHeight <= visibleRect.maxY else {
+//                    return true
+//                }
 
                 visibleCellAddresses.insert(address)
                 if mergedCellAddresses.insert(address).inserted {
