@@ -26,7 +26,6 @@
 		149E24071EBF05A10049E172 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E24061EBF05A00049E172 /* LayoutEngine.swift */; };
 		149E6A731EADE047000D851D /* SpreadsheetView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E6A691EADE047000D851D /* SpreadsheetView.framework */; };
 		149E6A781EADE048000D851D /* ScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A771EADE048000D851D /* ScrollTests.swift */; };
-		149E6A911EADE0EA000D851D /* SpreadsheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 149E6A831EADE0EA000D851D /* SpreadsheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149E6A921EADE0EA000D851D /* SpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A841EADE0EA000D851D /* SpreadsheetView.swift */; };
 		149E6A931EADE0EA000D851D /* SpreadsheetViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A851EADE0EA000D851D /* SpreadsheetViewDataSource.swift */; };
 		149E6A941EADE0EA000D851D /* SpreadsheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A861EADE0EA000D851D /* SpreadsheetViewDelegate.swift */; };
@@ -111,7 +110,6 @@
 		149E6A721EADE047000D851D /* SpreadsheetViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpreadsheetViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149E6A771EADE048000D851D /* ScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTests.swift; sourceTree = "<group>"; };
 		149E6A791EADE048000D851D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		149E6A831EADE0EA000D851D /* SpreadsheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpreadsheetView.h; sourceTree = "<group>"; };
 		149E6A841EADE0EA000D851D /* SpreadsheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetView.swift; sourceTree = "<group>"; };
 		149E6A851EADE0EA000D851D /* SpreadsheetViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDataSource.swift; sourceTree = "<group>"; };
 		149E6A861EADE0EA000D851D /* SpreadsheetViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetViewDelegate.swift; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 		149E6A6B1EADE047000D851D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				149E6A831EADE0EA000D851D /* SpreadsheetView.h */,
 				149E6A841EADE0EA000D851D /* SpreadsheetView.swift */,
 				143664CC1EB653A000321E5E /* SpreadsheetView+Layout.swift */,
 				149E24061EBF05A00049E172 /* LayoutEngine.swift */,
@@ -283,7 +280,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149E6A911EADE0EA000D851D /* SpreadsheetView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
