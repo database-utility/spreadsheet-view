@@ -243,9 +243,9 @@ final class LayoutEngine {
                 cellOrigin.x += columnWidth + intercellSpacing.width
                 continue
             }
-            guard cellOrigin.y <= visibleRect.maxY else {
-                return true
-            }
+//            guard cellOrigin.y <= visibleRect.maxY else {
+//                return true
+//            }
 
             let address = Address(row: row, column: column, rowIndex: rowIndex, columnIndex: columnIndex)
             visibleCellAddresses.insert(address)
