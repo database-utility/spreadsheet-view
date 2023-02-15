@@ -1,12 +1,12 @@
 // swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
-    name: "SpreadsheetView",
+    name: "spreadsheet-view",
     defaultLocalization: "en",
     platforms: [
-        .macOS("11.0"), .iOS("11.0"), .tvOS("9.2"), .watchOS("6.0")
+        .iOS("11.0"),
+        .tvOS("9.2"),
     ],
     products: [
         .library(
